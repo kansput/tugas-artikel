@@ -4,7 +4,7 @@ export default function Home() {
       {/* Header */}
       <header className="bg-slate-900 text-white py-4 border-b border-slate-700">
         <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
-          <h2 className="text-2xl font-bold">FinanceInsight</h2>
+          <h2 className="text-2xl font-bold">Realita Gen Z</h2>
           <nav className="flex gap-6 text-sm">
             <a href="#" className="hover:text-blue-400">Beranda</a>
             <a href="#" className="hover:text-blue-400">Artikel</a>
@@ -22,7 +22,7 @@ export default function Home() {
           <span>•</span>
           <span>6 Januari 2026</span>
           <span>•</span>
-          <span>12 menit baca</span>
+          <span>10 Menit Bicara</span>
         </div>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
@@ -35,12 +35,12 @@ export default function Home() {
 
         {/* Author Info */}
         <div className="flex items-center gap-4 mb-8 pb-8 border-b border-gray-200">
-          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
-            FI
+          <div className="w-13 h-13 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
+            KEL 1
           </div>
           <div>
-            <p className="font-semibold text-gray-900">Tim Investigasi FinanceInsight</p>
-            <p className="text-sm text-gray-600">Psikologi Keuangan & Fenomena Sosial Digital</p>
+            <p className="font-semibold text-gray-900">Tim Kelompok I </p>
+            <p className="text-sm text-gray-600">Kelas 10.7A.07 - Rekayasa Perangkat Lunak </p>
           </div>
         </div>
 
@@ -174,7 +174,7 @@ export default function Home() {
           </p>
 
           <p className="text-gray-800 leading-relaxed mb-4">
-            Ketika seseorang harus mengumpulkan dokumen selama berminggu-minggu, menunggu approval, dan akhirnya mendapat uang setelah proses panjang, ada "rasa berat" untuk menggunakannya. Ada awareness bahwa ini adalah tanggung jawab besar.
+            Ketika seseorang harus mengumpulkan dokumen selama berminggu-minggu, menunggu approval, dan akhirnya mendapat uang setelah proses panjang, ada "rasa berat" untuk menggunakannya. Ada <i>awareness</i> bahwa ini adalah tanggung jawab besar.
           </p>
 
           <p className="text-gray-800 leading-relaxed font-semibold">
@@ -220,8 +220,8 @@ export default function Home() {
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 bg-blue-500 text-white rounded-full flex items-center justify-center font-bold">1</div>
-                <h4 className="font-semibold text-lg">Bulan Pertama - "Awal yang Manis"</h4>
+                <div className="w-10 h-10 bg-blue-500 text-black rounded-full flex items-center justify-center font-bold">1</div>
+                <h4 className="font-semibold text-lg text-black">Bulan Pertama - "Awal yang Manis"</h4>
               </div>
               <p className="text-gray-700 ml-13">Pinjam Rp3 juta di Aplikasi A untuk beli HP. Tenor 3 bulan. Cicilan Rp1,2 juta/bulan.</p>
               <p className="text-sm text-gray-600 ml-13 mt-2">Total: Utang Rp3 juta di 1 aplikasi</p>
@@ -230,7 +230,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 bg-yellow-500 text-white rounded-full flex items-center justify-center font-bold">2</div>
-                <h4 className="font-semibold text-lg">Bulan Kedua - "Mulai Ketat"</h4>
+                <h4 className="font-semibold text-lg text-black">Bulan Kedua - "Mulai Ketat"</h4>
               </div>
               <p className="text-gray-700 ml-13">Gaji habis untuk kebutuhan lain. Cicilan Rp1,2 juta tidak ada. Pinjam Rp1,5 juta di Aplikasi B untuk bayar Aplikasi A.</p>
               <p className="text-sm text-gray-600 ml-13 mt-2">Total: Utang Rp4,5 juta di 2 aplikasi</p>
@@ -239,7 +239,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold">3</div>
-                <h4 className="font-semibold text-lg">Bulan Ketiga - "Panik Mulai"</h4>
+                <h4 className="font-semibold text-lg text-black">Bulan Ketiga - "Panik Mulai"</h4>
               </div>
               <p className="text-gray-700 ml-13">Harus bayar: Aplikasi A Rp1,2 juta + Aplikasi B Rp700 ribu = Rp1,9 juta. Gaji tidak cukup. Pinjam Rp2 juta di Aplikasi C.</p>
               <p className="text-sm text-gray-600 ml-13 mt-2">Total: Utang Rp6,5 juta di 3 aplikasi</p>
@@ -248,7 +248,7 @@ export default function Home() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center gap-3 mb-3">
                 <div className="w-10 h-10 bg-red-500 text-white rounded-full flex items-center justify-center font-bold">4</div>
-                <h4 className="font-semibold text-lg">Bulan Keempat - "Kehancuran Total"</h4>
+                <h4 className="font-semibold text-lg text-black">Bulan Keempat - "Kehancuran Total"</h4>
               </div>
               <p className="text-gray-700 ml-13">Cicilan gabungan: Rp2,8 juta. Gaji: Rp5 juta. Biaya hidup: minimal Rp3 juta. TIDAK MUNGKIN BAYAR. Pinjam lagi Rp3 juta di Aplikasi D dan E.</p>
               <p className="text-sm text-red-600 ml-13 mt-2 font-bold">Total: Utang Rp9,5 juta di 5 aplikasi</p>
@@ -256,8 +256,8 @@ export default function Home() {
 
             <div className="bg-red-600 text-white p-6 rounded-lg shadow-lg">
               <div className="flex items-center gap-3 mb-3">
-                <div className="w-10 h-10 bg-white text-red-600 rounded-full flex items-center justify-center font-bold">∞</div>
-                <h4 className="font-semibold text-lg">Bulan Kelima dan Seterusnya - "Infinite Loop"</h4>
+                <div className="w-10 h-10 bg-white text-red-600 rounded-full flex items-center justify-center font-bold">5</div>
+                <h4 className="font-semibold text-lg">Bulan Kelima dan Seterusnya - "<i>Infinite Loop</i>"</h4>
               </div>
               <p className="ml-13">Setiap bulan: cicilan bertambah, aplikasi bertambah, teror bertambah, stress bertambah. Exit? Hampir mustahil tanpa menjual aset atau bantuan keluarga.</p>
             </div>
@@ -412,7 +412,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">FinanceInsight</h3>
+              <h3 className="text-xl font-bold mb-4">Realita Gen Z </h3>
               <p className="text-gray-400 text-sm leading-relaxed">
                 Platform analisis keuangan dan teknologi digital terpercaya untuk generasi muda Indonesia.
               </p>
